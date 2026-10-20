@@ -1,0 +1,10 @@
+fuel_intensity_factor,renewable_minus_fossil_cad_l,estimated_litres_year,price_parity_cad_year,phase1_cad_year,unit
+0.5,0.1,9345249.75,934524.9750000001,467262.48750000005,full 8 regional district scenario
+0.5,0.25,9345249.75,2336312.4375,1168156.21875,full 8 regional district scenario
+0.5,0.45,9345249.75,4205362.3875,2102681.19375,full 8 regional district scenario
+1,0.1,18690499.5,1869049.9500000002,934524.9750000001,full 8 regional district scenario
+1,0.25,18690499.5,4672624.875,2336312.4375,full 8 regional district scenario
+1,0.45,18690499.5,8410724.775,4205362.3875,full 8 regional district scenario
+1.6,0.1,29904799.2,2990479.92,1495239.96,full 8 regional district scenario
+1.6,0.25,29904799.2,7476199.8,3738099.9,full 8 regional district scenario
+1.6,0.45,29904799.2,13457159.64,6728579.82,full 8 regional district scenario

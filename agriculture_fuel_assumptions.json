@@ -1,0 +1,107 @@
+{
+  "model": {
+    "hay_l_ha": 30.0,
+    "residual_field_l_ha": 65.0,
+    "fruit_berries_nuts_l_ha": 130.0,
+    "vegetables_l_ha": 150.0,
+    "nursery_sod_l_ha": 100.0,
+    "seeded_pasture_l_ha": 25.0,
+    "natural_pasture_l_ha": 1.5,
+    "other_farmland_l_ha": 3.0,
+    "farm_service_l_farm": 800.0,
+    "price_gap_cad_l": 0.25,
+    "fuel_density_CO2_kg_l": 2.681,
+    "uptake_fraction": 1.0,
+    "phase1_fraction": 0.5,
+    "existing_ag_fuel_cap_l": 100000000
+  },
+  "sources": "Official 2021 BC Agriculture in Brief census division profiles. Farm fuel coefficients explicitly hypothetical.",
+  "area_is_region_not_municipality": true,
+  "sites": [
+    [
+      "Lillooet",
+      "SL",
+      1
+    ],
+    [
+      "Cache Creek",
+      "TN",
+      0.15
+    ],
+    [
+      "Kamloops",
+      "TN",
+      0.55
+    ],
+    [
+      "Chase",
+      "TN",
+      0.3
+    ],
+    [
+      "Salmon Arm",
+      "CS",
+      1
+    ],
+    [
+      "Vernon",
+      "NO",
+      1
+    ],
+    [
+      "Kelowna",
+      "CO",
+      0.75
+    ],
+    [
+      "West Kelowna",
+      "CO",
+      0.25
+    ],
+    [
+      "Penticton",
+      "OS",
+      0.45
+    ],
+    [
+      "Oliver",
+      "OS",
+      0.3
+    ],
+    [
+      "Osoyoos",
+      "OS",
+      0.25
+    ],
+    [
+      "Hope",
+      "FV",
+      0.1
+    ],
+    [
+      "Agassiz / Kent",
+      "FV",
+      0.15
+    ],
+    [
+      "Chilliwack",
+      "FV",
+      0.25
+    ],
+    [
+      "Abbotsford",
+      "FV",
+      0.35
+    ],
+    [
+      "Mission",
+      "FV",
+      0.15
+    ],
+    [
+      "Maple Ridge",
+      "GV",
+      1
+    ]
+  ]
+}

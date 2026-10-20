@@ -1,0 +1,85 @@
+{
+  "heat_potential_twh": 14.57,
+  "bc_marketed_fruit_t": 199227,
+  "base_gh_heat_kwh_m2_year": 450,
+  "led_kwh_m2_by_scenario": {
+    "Demonstration": 40,
+    "Regional": 80,
+    "Expansion": 160,
+    "Heat-intensive": 450
+  },
+  "low_temp_cop": 4.0,
+  "drying_cop": 3.0,
+  "direct_heat_fraction": 0.7,
+  "assumptions": {
+    "Demonstration": {
+      "greenhouse_ha": 100,
+      "ras_tonnes": 10000,
+      "fruit_diversion": 0.02,
+      "shellfish_nursery_modules": 1,
+      "salmon_dry_fraction": 0.08,
+      "led_kwh_m2": 40,
+      "veg_yield_kg_m2": 14
+    },
+    "Regional": {
+      "greenhouse_ha": 300,
+      "ras_tonnes": 30000,
+      "fruit_diversion": 0.05,
+      "shellfish_nursery_modules": 3,
+      "salmon_dry_fraction": 0.1,
+      "led_kwh_m2": 80,
+      "veg_yield_kg_m2": 20
+    },
+    "Expansion": {
+      "greenhouse_ha": 1000,
+      "ras_tonnes": 120000,
+      "fruit_diversion": 0.05,
+      "shellfish_nursery_modules": 12,
+      "salmon_dry_fraction": 0.1,
+      "led_kwh_m2": 160,
+      "veg_yield_kg_m2": 25
+    },
+    "Heat-intensive": {
+      "greenhouse_ha": 3000,
+      "ras_tonnes": 250000,
+      "fruit_diversion": 0.1,
+      "shellfish_nursery_modules": 25,
+      "salmon_dry_fraction": 0.1,
+      "led_kwh_m2": 450,
+      "veg_yield_kg_m2": 35
+    }
+  },
+  "species": {
+    "salmon": {
+      "share": 0.44,
+      "heat_kwh_kg": 2.0,
+      "electric_kwh_kg": 6.0,
+      "category": "cold-water saline/controlled RAS"
+    },
+    "trout": {
+      "share": 0.25,
+      "heat_kwh_kg": 1.5,
+      "electric_kwh_kg": 5.0,
+      "category": "freshwater RAS"
+    },
+    "prawns": {
+      "share": 0.1,
+      "heat_kwh_kg": 5.0,
+      "electric_kwh_kg": 12.0,
+      "category": "warmwater RAS (freshwater prawn sensitivity)"
+    },
+    "tilapia": {
+      "share": 0.21,
+      "heat_kwh_kg": 3.0,
+      "electric_kwh_kg": 8.0,
+      "category": "warmwater RAS"
+    }
+  },
+  "annual_heat_allocation": "site co-location required; no cross-city heat network",
+  "source_caveats": [
+    "2024 marketed fruit is NOT wasted fruit",
+    "seafood volumes require feed/water/oxygen/permits/market",
+    "thermal potential NOT observed delivered heat",
+    "mercury-free cannot be claimed"
+  ]
+}

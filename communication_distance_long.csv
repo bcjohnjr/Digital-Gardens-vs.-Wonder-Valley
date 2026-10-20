@@ -1,0 +1,118 @@
+year,method,representative_site_distance_km,network_only_efficiency_pct,communication_overhead_pct_per_local_step,exposed_fraction,illustrative_step_s
+2026,Data parallel (all-reduce),50,65.481,52.717,1.0,20.0
+2026,Data parallel (all-reduce),250,65.469,52.745,1.0,20.0
+2026,Data parallel (all-reduce),800,65.436,52.822,1.0,20.0
+2026,Tensor parallel (WAN-sharded),50,90.475,10.528,1.0,20.0
+2026,Tensor parallel (WAN-sharded),250,89.388,11.872,1.0,20.0
+2026,Tensor parallel (WAN-sharded),800,86.529,15.568,1.0,20.0
+2026,Pipeline parallel (WAN stage),50,97.87,2.176,1.0,20.0
+2026,Pipeline parallel (WAN stage),250,97.443,2.624,1.0,20.0
+2026,Pipeline parallel (WAN stage),800,96.287,3.856,1.0,20.0
+2026,Context parallel (WAN),50,90.764,10.176,1.0,20.0
+2026,Context parallel (WAN),250,90.396,10.624,1.0,20.0
+2026,Context parallel (WAN),800,89.401,11.856,1.0,20.0
+2026,Expert parallel (WAN all-to-all),50,83.09,20.352,1.0,20.0
+2026,Expert parallel (WAN all-to-all),250,82.476,21.248,1.0,20.0
+2026,Expert parallel (WAN all-to-all),800,80.833,23.712,1.0,20.0
+2026,FSDP/ZeRO-3 over WAN,50,49.89,100.44,1.0,20.0
+2026,FSDP/ZeRO-3 over WAN,250,49.613,101.56,1.0,20.0
+2026,FSDP/ZeRO-3 over WAN,800,48.866,104.64,1.0,20.0
+2026,Sequence parallel (WAN),50,95.749,4.44,1.0,20.0
+2026,Sequence parallel (WAN),250,94.733,5.56,1.0,20.0
+2026,Sequence parallel (WAN),800,92.047,8.64,1.0,20.0
+2026,Local DP+TP+PP+CP+EP (independent jobs),50,100.0,0.0,1.0,20.0
+2026,Local DP+TP+PP+CP+EP (independent jobs),250,100.0,0.0,1.0,20.0
+2026,Local DP+TP+PP+CP+EP (independent jobs),800,100.0,0.0,1.0,20.0
+2026,Regional inference (local replica),50,100.0,0.0,1.0,20.0
+2026,Regional inference (local replica),250,100.0,0.0,1.0,20.0
+2026,Regional inference (local replica),800,100.0,0.0,1.0,20.0
+2026,Local-SGD / DiLoCo H=100 (70B),50,99.476,0.527,1.0,20.0
+2026,Local-SGD / DiLoCo H=100 (70B),250,99.475,0.527,1.0,20.0
+2026,Local-SGD / DiLoCo H=100 (70B),800,99.475,0.528,1.0,20.0
+2026,Local-SGD / DiLoCo H=500 (70B),50,99.895,0.105,1.0,20.0
+2026,Local-SGD / DiLoCo H=500 (70B),250,99.895,0.105,1.0,20.0
+2026,Local-SGD / DiLoCo H=500 (70B),800,99.894,0.106,1.0,20.0
+2026,Decoupled DiLoCo H=500 (70B),50,99.979,0.021,0.2,20.0
+2026,Decoupled DiLoCo H=500 (70B),250,99.979,0.021,0.2,20.0
+2026,Decoupled DiLoCo H=500 (70B),800,99.979,0.021,0.2,20.0
+2026,Decoupled DiLoCo H=500 (1T),50,99.7,0.301,0.2,20.0
+2026,Decoupled DiLoCo H=500 (1T),250,99.7,0.301,0.2,20.0
+2026,Decoupled DiLoCo H=500 (1T),800,99.7,0.301,0.2,20.0
+2036,Data parallel (all-reduce),50,60.264,65.937,1.0,4.0
+2036,Data parallel (all-reduce),250,60.213,66.077,1.0,4.0
+2036,Data parallel (all-reduce),800,60.074,66.462,1.0,4.0
+2036,Tensor parallel (WAN-sharded),50,86.851,15.14,1.0,4.0
+2036,Tensor parallel (WAN-sharded),250,82.061,21.86,1.0,4.0
+2036,Tensor parallel (WAN-sharded),800,71.256,40.34,1.0,4.0
+2036,Pipeline parallel (WAN stage),50,96.731,3.38,1.0,4.0
+2036,Pipeline parallel (WAN stage),250,94.679,5.62,1.0,4.0
+2036,Pipeline parallel (WAN stage),800,89.461,11.78,1.0,4.0
+2036,Context parallel (WAN),50,88.199,13.38,1.0,4.0
+2036,Context parallel (WAN),250,86.49,15.62,1.0,4.0
+2036,Context parallel (WAN),800,82.115,21.78,1.0,4.0
+2036,Expert parallel (WAN all-to-all),50,78.889,26.76,1.0,4.0
+2036,Expert parallel (WAN all-to-all),250,76.196,31.24,1.0,4.0
+2036,Expert parallel (WAN all-to-all),800,69.657,43.56,1.0,4.0
+2036,FSDP/ZeRO-3 over WAN,50,44.014,127.2,1.0,4.0
+2036,FSDP/ZeRO-3 over WAN,250,42.955,132.8,1.0,4.0
+2036,FSDP/ZeRO-3 over WAN,800,40.29,148.2,1.0,4.0
+2036,Sequence parallel (WAN),50,93.284,7.2,1.0,4.0
+2036,Sequence parallel (WAN),250,88.652,12.8,1.0,4.0
+2036,Sequence parallel (WAN),800,78.003,28.2,1.0,4.0
+2036,Local DP+TP+PP+CP+EP (independent jobs),50,100.0,0.0,1.0,4.0
+2036,Local DP+TP+PP+CP+EP (independent jobs),250,100.0,0.0,1.0,4.0
+2036,Local DP+TP+PP+CP+EP (independent jobs),800,100.0,0.0,1.0,4.0
+2036,Regional inference (local replica),50,100.0,0.0,1.0,4.0
+2036,Regional inference (local replica),250,100.0,0.0,1.0,4.0
+2036,Regional inference (local replica),800,100.0,0.0,1.0,4.0
+2036,Local-SGD / DiLoCo H=100 (70B),50,99.345,0.659,1.0,4.0
+2036,Local-SGD / DiLoCo H=100 (70B),250,99.344,0.661,1.0,4.0
+2036,Local-SGD / DiLoCo H=100 (70B),800,99.34,0.665,1.0,4.0
+2036,Local-SGD / DiLoCo H=500 (70B),50,99.868,0.132,1.0,4.0
+2036,Local-SGD / DiLoCo H=500 (70B),250,99.868,0.132,1.0,4.0
+2036,Local-SGD / DiLoCo H=500 (70B),800,99.867,0.133,1.0,4.0
+2036,Decoupled DiLoCo H=500 (70B),50,99.974,0.026,0.2,4.0
+2036,Decoupled DiLoCo H=500 (70B),250,99.974,0.026,0.2,4.0
+2036,Decoupled DiLoCo H=500 (70B),800,99.973,0.027,0.2,4.0
+2036,Decoupled DiLoCo H=500 (1T),50,99.625,0.376,0.2,4.0
+2036,Decoupled DiLoCo H=500 (1T),250,99.625,0.377,0.2,4.0
+2036,Decoupled DiLoCo H=500 (1T),800,99.625,0.377,0.2,4.0
+2041,Data parallel (all-reduce),50,60.204,66.102,1.0,1.0
+2041,Data parallel (all-reduce),250,60.002,66.662,1.0,1.0
+2041,Data parallel (all-reduce),800,59.452,68.202,1.0,1.0
+2041,Tensor parallel (WAN-sharded),50,81.261,23.06,1.0,1.0
+2041,Tensor parallel (WAN-sharded),250,66.693,49.94,1.0,1.0
+2041,Tensor parallel (WAN-sharded),800,44.671,123.86,1.0,1.0
+2041,Pipeline parallel (WAN stage),50,94.322,6.02,1.0,1.0
+2041,Pipeline parallel (WAN stage),250,86.972,14.98,1.0,1.0
+2041,Pipeline parallel (WAN stage),800,71.623,39.62,1.0,1.0
+2041,Context parallel (WAN),50,86.192,16.02,1.0,1.0
+2041,Context parallel (WAN),250,80.013,24.98,1.0,1.0
+2041,Context parallel (WAN),800,66.836,49.62,1.0,1.0
+2041,Expert parallel (WAN all-to-all),50,75.735,32.04,1.0,1.0
+2041,Expert parallel (WAN all-to-all),250,66.684,49.96,1.0,1.0
+2041,Expert parallel (WAN all-to-all),800,50.191,99.24,1.0,1.0
+2041,FSDP/ZeRO-3 over WAN,50,42.772,133.8,1.0,1.0
+2041,FSDP/ZeRO-3 over WAN,250,39.032,156.2,1.0,1.0
+2041,FSDP/ZeRO-3 over WAN,800,31.466,217.8,1.0,1.0
+2041,Sequence parallel (WAN),50,87.873,13.8,1.0,1.0
+2041,Sequence parallel (WAN),250,73.421,36.2,1.0,1.0
+2041,Sequence parallel (WAN),800,50.556,97.8,1.0,1.0
+2041,Local DP+TP+PP+CP+EP (independent jobs),50,100.0,0.0,1.0,1.0
+2041,Local DP+TP+PP+CP+EP (independent jobs),250,100.0,0.0,1.0,1.0
+2041,Local DP+TP+PP+CP+EP (independent jobs),800,100.0,0.0,1.0,1.0
+2041,Regional inference (local replica),50,100.0,0.0,1.0,1.0
+2041,Regional inference (local replica),250,100.0,0.0,1.0,1.0
+2041,Regional inference (local replica),800,100.0,0.0,1.0,1.0
+2041,Local-SGD / DiLoCo H=100 (70B),50,99.343,0.661,1.0,1.0
+2041,Local-SGD / DiLoCo H=100 (70B),250,99.338,0.667,1.0,1.0
+2041,Local-SGD / DiLoCo H=100 (70B),800,99.323,0.682,1.0,1.0
+2041,Local-SGD / DiLoCo H=500 (70B),50,99.868,0.132,1.0,1.0
+2041,Local-SGD / DiLoCo H=500 (70B),250,99.867,0.133,1.0,1.0
+2041,Local-SGD / DiLoCo H=500 (70B),800,99.864,0.136,1.0,1.0
+2041,Decoupled DiLoCo H=500 (70B),50,99.974,0.026,0.2,1.0
+2041,Decoupled DiLoCo H=500 (70B),250,99.973,0.027,0.2,1.0
+2041,Decoupled DiLoCo H=500 (70B),800,99.973,0.027,0.2,1.0
+2041,Decoupled DiLoCo H=500 (1T),50,99.625,0.377,0.2,1.0
+2041,Decoupled DiLoCo H=500 (1T),250,99.625,0.377,0.2,1.0
+2041,Decoupled DiLoCo H=500 (1T),800,99.624,0.377,0.2,1.0

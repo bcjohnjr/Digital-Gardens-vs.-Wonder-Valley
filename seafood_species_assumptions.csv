@@ -1,0 +1,5 @@
+species,share,heat_kwh_kg,electric_kwh_kg,category
+salmon,0.44,2.0,6.0,cold-water saline/controlled RAS
+trout,0.25,1.5,5.0,freshwater RAS
+prawns,0.1,5.0,12.0,warmwater RAS (freshwater prawn sensitivity)
+tilapia,0.21,3.0,8.0,warmwater RAS

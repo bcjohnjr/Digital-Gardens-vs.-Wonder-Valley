@@ -1,0 +1,4 @@
+scenario,cad_per_it_mw_year,proposed_it_mw,implied_cad_billion_per_year,evidence_status
+low,500000.0,3624.51,1.8122550000000002,"scenario only, no audited cash flows"
+proponent_website_claim_inferred,1269137.0695625064,3624.51,4.6,"scenario only, no audited cash flows"
+high,1500000.0,3624.51,5.436765,"scenario only, no audited cash flows"

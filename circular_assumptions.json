@@ -1,0 +1,63 @@
+{
+  "species_shares": {
+    "tilapia": 0.4,
+    "prawns": 0.3,
+    "salmon": 0.2,
+    "trout": 0.1
+  },
+  "FCR": {
+    "tilapia": 1.5,
+    "prawns": 1.7,
+    "salmon": 1.2,
+    "trout": 1.3
+  },
+  "RAS_jobs_per_1000_t": {
+    "tilapia": [
+      12,
+      24
+    ],
+    "prawns": [
+      16,
+      35
+    ],
+    "salmon": [
+      26,
+      30
+    ],
+    "trout": [
+      18,
+      28
+    ]
+  },
+  "greenhouse_fte_per_hectare_assumed": [
+    4,
+    9
+  ],
+  "2024_berry_benchmark_t": 113195.18,
+  "waste_plant_ratio_wet_vegetables": 0.35,
+  "residue_dry_fraction": 0.12,
+  "recovered_fraction": 0.65,
+  "feed_grade_fraction": 0.4,
+  "protein_to_N": 0.16,
+  "freshwater_RAS_dissolved_N_fraction": 0.3,
+  "freshwater_N_capture": 0.35,
+  "salmon_RAS_dissolved_N_fraction": 0.3,
+  "marine_N_and_P_capture": 0.4,
+  "algae_dry_N_fraction": 0.08,
+  "algae_dry_P_fraction": 0.01,
+  "algae_lipid_fraction": 0.25,
+  "oil_recovery": 0.7,
+  "oil_feed_inclusion": 0.01,
+  "PBR_productivity_g_m2_day": 20,
+  "PBR_productive_days": 300,
+  "PBR_ancillary_kWh_kg_dry_algae": 3,
+  "limitations": [
+    "No salinity mixing between freshwater aquaponics and salmon PBR systems",
+    "High predicted nutrient recovery does not establish actual fertilizer displacement",
+    "Marine PBR maximum biomass is an N/P stoichiometric ceiling, not an empirical yield",
+    "Greenhouse plant residues are not complete feed; feed-grade suitability and formulation unverified",
+    "FTE estimates based on scenario staffing ranges and national headcount/ha proxy; not projected vacancies",
+    "No guarantee of mercury below detection or downstream wild-salmon recovery",
+    "B.C. berry harvest is not measured unsold fruit and is not additionally counted in prior total fruit drying"
+  ]
+}

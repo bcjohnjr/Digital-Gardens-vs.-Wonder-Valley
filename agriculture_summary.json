@@ -1,0 +1,13 @@
+{
+  "districts": 8,
+  "sites": 17,
+  "farms_in_full_districts": 9008,
+  "diesel_l": 18690499.5,
+  "ag_parity_cad_year": 4672624.875,
+  "phase1_cad_year": 2336312.4375,
+  "phase2_cad_year": 4672624.875,
+  "earlier_assumed_cap_l": 100000000,
+  "difference_to_earlier_cap_l": 81309500.5,
+  "petroleum_co2_combustion_t": 50109.229159500006,
+  "unit_status": "screen only; combustion baseline not a lifecycle emission saving"
+}
