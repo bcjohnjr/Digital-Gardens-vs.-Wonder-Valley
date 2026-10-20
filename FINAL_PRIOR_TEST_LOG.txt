@@ -1,0 +1,39 @@
+/mnt/data/CPP_Digital_Gardens_vs_Wonder_Valley_Production_QA_20261020/prior_model/software/renewable_dispatch.py:33: ResourceWarning: unclosed file <_io.TextIOWrapper name='/mnt/data/CPP_Digital_Gardens_vs_Wonder_Valley_Production_QA_20261020/prior_model/inputs/site_it_capacity_assumptions.csv' mode='r' encoding='utf-8'>
+  sites=list(csv.DictReader(NODES.open(encoding='utf-8',newline='')))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/CPP_Digital_Gardens_vs_Wonder_Valley_Production_QA_20261020/prior_model/software/renewable_dispatch.py:34: ResourceWarning: unclosed file <_io.TextIOWrapper name='/mnt/data/CPP_Digital_Gardens_vs_Wonder_Valley_Production_QA_20261020/prior_model/inputs/bc17_site_resource_proxies.csv' mode='r' encoding='utf-8'>
+  metadata={r['Community']:r for r in csv.DictReader(SITEINFO.open(encoding='utf-8',newline=''))}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/CPP_Digital_Gardens_vs_Wonder_Valley_Production_QA_20261020/prior_model/software/renewable_dispatch.py:36: ResourceWarning: unclosed file <_io.TextIOWrapper name='/mnt/data/CPP_Digital_Gardens_vs_Wonder_Valley_Production_QA_20261020/prior_model/inputs/bc17_monthly_pv_wind_proxy.csv' mode='r' encoding='utf-8'>
+  for r in csv.DictReader(SOURCE.open(encoding='utf-8',newline='')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+...............................
+----------------------------------------------------------------------
+Ran 31 tests in 1.941s
+
+OK
+Horizon training strategies: 13 records: 117
+2026 Data parallel (all-reduce) overhead= 52.745 eff= 65.469
+2026 Decoupled DiLoCo H=500 (70B) overhead= 0.021 eff= 99.979
+2026 Decoupled DiLoCo H=500 (1T) overhead= 0.301 eff= 99.7
+2026 Regional inference (local replica) overhead= 0.0 eff= 100.0
+2036 Data parallel (all-reduce) overhead= 66.077 eff= 60.213
+2036 Decoupled DiLoCo H=500 (70B) overhead= 0.026 eff= 99.974
+2036 Decoupled DiLoCo H=500 (1T) overhead= 0.377 eff= 99.625
+2036 Regional inference (local replica) overhead= 0.0 eff= 100.0
+2041 Data parallel (all-reduce) overhead= 66.662 eff= 60.002
+2041 Decoupled DiLoCo H=500 (70B) overhead= 0.027 eff= 99.973
+2041 Decoupled DiLoCo H=500 (1T) overhead= 0.377 eff= 99.625
+2041 Regional inference (local replica) overhead= 0.0 eff= 100.0
+50 kg screening: [87.22, 89.23]
+Reproduced scenario rows:
+local_only_independent_jobs 0.000%
+nearby_partitioned_1GB 0.042%
+nearby_partitioned_10GB 0.402%
+nearby_partitioned_100GB 4.002%
+nearby_partitioned_1TB 40.002%
+nearby_no_overlap_10GB 2.010%
+regional_10GB_100Gbps 1.601%
+regional_10GB_800Gbps 0.201%
+regional_10GB_1600Gbps 0.101%
+nearby_10GB_high_overlap 0.101%

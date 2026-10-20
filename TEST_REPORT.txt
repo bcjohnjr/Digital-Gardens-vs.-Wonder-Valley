@@ -1,0 +1,6 @@
+FINAL MODEL VERIFICATION — 20 OCTOBER 2026
+Community/agricultural tests: 23 passed (FINAL_COMMUNITY_TEST_LOG.txt).
+Prior AI/frontier/renewable-dispatch tests: 31 passed (FINAL_PRIOR_TEST_LOG.txt).
+Circular-food tests: 14 passed (FINAL_CIRCULAR_TEST_LOG.txt).
+TOTAL: 68 tests passed.
+The manuscript is an engineering and policy scenario study, not a validation of operating facilities.

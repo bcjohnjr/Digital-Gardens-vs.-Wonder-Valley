@@ -1,0 +1,81 @@
+{
+  "pages": 43,
+  "image_count_in_docx": 15,
+  "figure_captions": {
+    "1": {
+      "page": 8,
+      "inline_image_on_page": true
+    },
+    "9": {
+      "page": 9,
+      "inline_image_on_page": true
+    },
+    "10": {
+      "page": 10,
+      "inline_image_on_page": true
+    },
+    "11": {
+      "page": 11,
+      "inline_image_on_page": true
+    },
+    "12": {
+      "page": 12,
+      "inline_image_on_page": true
+    },
+    "13": {
+      "page": 13,
+      "inline_image_on_page": true
+    },
+    "14": {
+      "page": 15,
+      "inline_image_on_page": true
+    },
+    "2": {
+      "page": 16,
+      "inline_image_on_page": true
+    },
+    "3": {
+      "page": 17,
+      "inline_image_on_page": true
+    },
+    "4": {
+      "page": 20,
+      "inline_image_on_page": true
+    },
+    "5": {
+      "page": 20,
+      "inline_image_on_page": true
+    },
+    "6": {
+      "page": 22,
+      "inline_image_on_page": true
+    },
+    "7": {
+      "page": 23,
+      "inline_image_on_page": true
+    },
+    "8": {
+      "page": 27,
+      "inline_image_on_page": true
+    },
+    "15": {
+      "page": 31,
+      "inline_image_on_page": true
+    }
+  },
+  "numbered_tables": 17,
+  "additional_assumptions_register": 1,
+  "table_1_page": 7,
+  "figure_8_page": 27,
+  "p2_words": 605,
+  "p15_words": 264,
+  "p29_words": 604,
+  "p35_words": 517,
+  "p43_words": 282,
+  "suspicious_numeral_blocks": 0,
+  "repro_tests": [
+    31,
+    14,
+    23
+  ]
+}

@@ -1,0 +1,100 @@
+RUN /opt/pyvenv/bin/python /mnt/data/CPP_DG_WV_Referee_Reconciled_20261020/model/agriculture_diesel.py
+{
+  "districts": 8,
+  "sites": 17,
+  "farms_in_full_districts": 9008,
+  "diesel_l": 18690499.5,
+  "ag_parity_cad_year": 4672624.875,
+  "phase1_cad_year": 2336312.4375,
+  "phase2_cad_year": 4672624.875,
+  "earlier_assumed_cap_l": 100000000,
+  "difference_to_earlier_cap_l": 81309500.5,
+  "petroleum_co2_combustion_t": 50109.229159500006,
+  "unit_status": "screen only; combustion baseline not a lifecycle emission saving"
+}
+RUN /opt/pyvenv/bin/python /mnt/data/CPP_DG_WV_Referee_Reconciled_20261020/model/community_benefits.py
+[
+  {
+    "phase": 1,
+    "population": 393967,
+    "households": 164153,
+    "vehicle_eligible": 147738,
+    "charging_evs": 139530,
+    "charging_gwh": 353.47594722222226,
+    "charging_average_mw": 40.35113552765094,
+    "illustrative_charger_peak_mw": 60.27695100000002,
+    "vehicle_annualized_value_mcad": 467.83581250000003,
+    "vehicle_financed_cost_mcad": 633.4052084128056,
+    "free_charging_market_value_mcad": 123.71658152777779,
+    "charging_annual_funding_mcad": 67.16042997222223,
+    "fresh_produce_entitlement_kg_per_resident": 146,
+    "seafood_entitlement_kg_per_resident": 46,
+    "produce_allocated_tonnes": 57519.182,
+    "seafood_allocated_tonnes": 18122.482,
+    "combined_food_allocated_tonnes": 75641.664,
+    "produce_share_of_projected_harvest_pct": 23.0076728,
+    "seafood_share_of_projected_harvest_pct": 15.102068333333333,
+    "remaining_produce_tonnes": 167480.818,
+    "remaining_seafood_tonnes": 59877.518,
+    "produce_share_of_saleable_supply_pct": 25.56408088888889,
+    "seafood_share_of_saleable_supply_pct": 23.233951282051283,
+    "greenhouse_food_market_value_mcad": 201.317137,
+    "seafood_market_value_mcad": 126.857374,
+    "agricultural_fuel_price_parity_subsidy_mcad": 2.3363124375,
+    "other_renewable_fuel_parity_subsidy_mcad": 16.2,
+    "fruit_drying_discount_mcad": 0.0625,
+    "annual_household_electricity_subsidy_mcad": 0,
+    "total_annual_community_value_mcad": 938.3257174652779,
+    "annual_programme_funding_mcad": 932.4778829725277,
+    "remaining_4600m_value_mcad": 3661.6742825347224,
+    "remaining_4600m_funding_mcad": 3667.5221170274726
+  },
+  {
+    "phase": 2,
+    "population": 787934,
+    "households": 328306,
+    "vehicle_eligible": 295475,
+    "charging_evs": 279060,
+    "charging_gwh": 706.9518944444445,
+    "charging_average_mw": 80.70227105530188,
+    "illustrative_charger_peak_mw": 120.55390200000004,
+    "vehicle_annualized_value_mcad": 935.6716250000001,
+    "vehicle_financed_cost_mcad": 1266.8104168256111,
+    "free_charging_market_value_mcad": 247.43316305555558,
+    "charging_annual_funding_mcad": 134.32085994444446,
+    "fresh_produce_entitlement_kg_per_resident": 146,
+    "seafood_entitlement_kg_per_resident": 46,
+    "produce_allocated_tonnes": 115038.364,
+    "seafood_allocated_tonnes": 36244.964,
+    "combined_food_allocated_tonnes": 151283.328,
+    "produce_share_of_projected_harvest_pct": 46.0153456,
+    "seafood_share_of_projected_harvest_pct": 30.204136666666667,
+    "remaining_produce_tonnes": 109961.636,
+    "remaining_seafood_tonnes": 41755.036,
+    "produce_share_of_saleable_supply_pct": 51.12816177777778,
+    "seafood_share_of_saleable_supply_pct": 46.467902564102566,
+    "greenhouse_food_market_value_mcad": 402.634274,
+    "seafood_market_value_mcad": 253.714748,
+    "agricultural_fuel_price_parity_subsidy_mcad": 4.672624875,
+    "other_renewable_fuel_parity_subsidy_mcad": 32.4,
+    "fruit_drying_discount_mcad": 0.125,
+    "annual_household_electricity_subsidy_mcad": 0,
+    "total_annual_community_value_mcad": 1876.6514349305558,
+    "annual_programme_funding_mcad": 1864.9557659450554,
+    "remaining_4600m_value_mcad": 2723.3485650694442,
+    "remaining_4600m_funding_mcad": 2735.0442340549444
+  }
+]
+PUE [{'it_utilization': 0.65, 'pue': 1.1, 'facility_twh': 22.701755934, 'heat_capture_twh': 17.542265949, 'heat_potential_enduse_twh': 10.5253595694, 'scope2_million_tco2e_at_50kg_mwh': 1.1350877967000002}, {'it_utilization': 0.65, 'pue': 1.15, 'facility_twh': 23.733653931, 'heat_capture_twh': 17.542265949, 'heat_potential_enduse_twh': 10.5253595694, 'scope2_million_tco2e_at_50kg_mwh': 1.18668269655}, {'it_utilization': 0.65, 'pue': 1.3, 'facility_twh': 26.829347922, 'heat_capture_twh': 17.542265949, 'heat_potential_enduse_twh': 10.5253595694, 'scope2_million_tco2e_at_50kg_mwh': 1.3414673961}, {'it_utilization': 0.75, 'pue': 1.1, 'facility_twh': 26.194333770000004, 'heat_capture_twh': 20.241076095, 'heat_potential_enduse_twh': 12.144645657, 'scope2_million_tco2e_at_50kg_mwh': 1.3097166885000002}, {'it_utilization': 0.75, 'pue': 1.15, 'facility_twh': 27.384985304999997, 'heat_capture_twh': 20.241076095, 'heat_potential_enduse_twh': 12.144645657, 'scope2_million_tco2e_at_50kg_mwh': 1.36924926525}, {'it_utilization': 0.75, 'pue': 1.3, 'facility_twh': 30.95693991, 'heat_capture_twh': 20.241076095, 'heat_potential_enduse_twh': 12.144645657, 'scope2_million_tco2e_at_50kg_mwh': 1.5478469955}, {'it_utilization': 0.9, 'pue': 1.1, 'facility_twh': 31.433200524000004, 'heat_capture_twh': 24.289291314, 'heat_potential_enduse_twh': 14.573574788399998, 'scope2_million_tco2e_at_50kg_mwh': 1.5716600262000002}, {'it_utilization': 0.9, 'pue': 1.15, 'facility_twh': 32.861982366, 'heat_capture_twh': 24.289291314, 'heat_potential_enduse_twh': 14.573574788399998, 'scope2_million_tco2e_at_50kg_mwh': 1.6430991183}, {'it_utilization': 0.9, 'pue': 1.3, 'facility_twh': 37.148327892, 'heat_capture_twh': 24.289291314, 'heat_potential_enduse_twh': 14.573574788399998, 'scope2_million_tco2e_at_50kg_mwh': 1.8574163946}]
+RUN /opt/pyvenv/bin/python /mnt/data/CPP_DG_WV_Referee_Reconciled_20261020/model/build_workbook.py
+Saved full 10-sheet workbook: /mnt/data/CPP_DG_WV_Referee_Reconciled_20261020/Community_Charging_Fuel_Parity_Model.xlsx
+8-district ag diesel: 18.690500 million L/y
+Full community value: CAD 1876.651435 million/y
+Illustrative funding: CAD 1864.955766 million/y
+RUN /opt/pyvenv/bin/python -m unittest discover -s /mnt/data/CPP_DG_WV_Referee_Reconciled_20261020/model -p test_*.py
+.......................
+----------------------------------------------------------------------
+Ran 23 tests in 0.001s
+
+OK
+All current agricultural and community model steps complete.

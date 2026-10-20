@@ -1,0 +1,3 @@
+# Required only for regenerating the 10-sheet XLSX with model/build_workbook.py.
+# The agricultural and community math and tests use Python 3.10+ standard library.
+artifact-tool
