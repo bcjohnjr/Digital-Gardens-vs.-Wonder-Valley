@@ -1,0 +1,35 @@
+{
+  "python_version": "3.13.5",
+  "number_of_reproducibility_scripts": 4,
+  "number_of_tests_passed": 25,
+  "csv_files": [
+    "results/node_capacity.csv",
+    "results/carbon_heat_sensitivity.csv",
+    "results/heat_sensitivity.csv",
+    "results/conditional_network_serialisation.csv",
+    "results/proximity_training_scenarios.csv",
+    "results/proximity_training_sensitivity.csv",
+    "results/horizon_training_methods.csv",
+    "results/horizon_quality_sensitivity.csv",
+    "results/wonder_per_mw_emissions_comparison.csv",
+    "results/heat_benchmark_scope.csv",
+    "results/dispatch_scenario_summary.csv",
+    "results/dispatch_site_summary.csv",
+    "results/dispatch_monthly_summary.csv",
+    "results/dispatch_hourly_network.csv",
+    "results/dispatch_utilization_flex_sensitivity.csv",
+    "results/dispatch_transfer_penalty_sensitivity.csv"
+  ],
+  "figure_files": [
+    "figures/Figure_1_capacity_vs_allocation.png",
+    "figures/Figure_2_emissions_sensitivity.png",
+    "figures/Figure_4_proximity_aware_training.png",
+    "figures/Figure_5_2026_2041_training_methods.png",
+    "figures/Figure_3_power_normalized_emissions.png",
+    "figures/Figure_6_renewable_responsive_dispatch.png",
+    "figures/Figure_7_dispatch_opportunity_hours.png"
+  ],
+  "figures_regenerated": true,
+  "projection_scope": "2026 NVIDIA reference and illustrative 2036/2041 assumptions; 17-site 8760-hour synthetic renewable dispatch screen",
+  "disclaimer": "Numerical screen; hourly renewable profiles are synthetic and wind CF assumed; no empirical multi-site GPU or grid dispatch measurement"
+}

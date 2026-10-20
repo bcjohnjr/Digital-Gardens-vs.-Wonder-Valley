@@ -1,0 +1,13 @@
+bc_grid_emission_intensity_kg_per_MWh,bc_annual_emissions_MtCO2e,bc_average_facility_load_MW,bc_tCO2e_per_continuous_MW_year,wonder_project_gas_generation_GW,wonder_reported_emissions_MtCO2e_per_year,wonder_tCO2e_per_continuous_MW_year,screening_reduction_pct,comparable_scope_verified
+10,0.3286,3751.368,87.6,7.5,25.7,3426.67,97.44,False
+10,0.3286,3751.368,87.6,7.5,30.5,4066.67,97.85,False
+25,0.8215,3751.368,219.0,7.5,25.7,3426.67,93.61,False
+25,0.8215,3751.368,219.0,7.5,30.5,4066.67,94.61,False
+50,1.6431,3751.368,438.0,7.5,25.7,3426.67,87.22,False
+50,1.6431,3751.368,438.0,7.5,30.5,4066.67,89.23,False
+100,3.2862,3751.368,876.0,7.5,25.7,3426.67,74.44,False
+100,3.2862,3751.368,876.0,7.5,30.5,4066.67,78.46,False
+150,4.9293,3751.368,1314.0,7.5,25.7,3426.67,61.65,False
+150,4.9293,3751.368,1314.0,7.5,30.5,4066.67,67.69,False
+250,8.2155,3751.368,2190.0,7.5,25.7,3426.67,36.09,False
+250,8.2155,3751.368,2190.0,7.5,30.5,4066.67,46.15,False

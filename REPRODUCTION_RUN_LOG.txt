@@ -1,0 +1,6 @@
+Screening models: 4
+Observed unittest count: 25
+Unittest outcome: OK
+Expected CSV outputs verified
+Figure PNGs regenerated and verified
+Interpretation: conditional screening outputs, not measured frontier training performance

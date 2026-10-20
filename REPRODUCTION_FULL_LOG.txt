@@ -1,0 +1,116 @@
+$ /opt/pyvenv/bin/python /mnt/data/CPP_Renewable_Shifting_2026_2041/software/bc_datacentre_screening.py
+Validation: screening algebra tests passed
+nodes: 17
+it_capacity_mw: 3,624.5100
+facility_peak_mw: 4,168.1865
+it_gwh_y: 28,575.6368
+facility_gwh_y: 32,861.9824
+recovered_potential_gwh_y: 24,289.2913
+useful_heat_gwh_y: 14,573.5748
+proposed_budget_cad_y: 4,349,412,000.0000
+Critical caveat: no site approvals, network throughput or financial revenues proven
+$ /opt/pyvenv/bin/python /mnt/data/CPP_Renewable_Shifting_2026_2041/software/proximity_aware_training.py
+Reproduced scenario rows:
+local_only_independent_jobs 0.000%
+nearby_partitioned_1GB 0.042%
+nearby_partitioned_10GB 0.402%
+nearby_partitioned_100GB 4.002%
+nearby_partitioned_1TB 40.002%
+nearby_no_overlap_10GB 2.010%
+regional_10GB_100Gbps 1.601%
+regional_10GB_800Gbps 0.201%
+regional_10GB_1600Gbps 0.101%
+nearby_10GB_high_overlap 0.101%
+$ /opt/pyvenv/bin/python /mnt/data/CPP_Renewable_Shifting_2026_2041/software/horizon_parallelism.py
+Horizon training strategies: 13 records: 117
+2026 Data parallel (all-reduce) overhead= 52.745 eff= 65.469
+2026 Decoupled DiLoCo H=500 (70B) overhead= 0.021 eff= 99.979
+2026 Decoupled DiLoCo H=500 (1T) overhead= 0.301 eff= 99.7
+2026 Regional inference (local replica) overhead= 0.0 eff= 100.0
+2036 Data parallel (all-reduce) overhead= 66.077 eff= 60.213
+2036 Decoupled DiLoCo H=500 (70B) overhead= 0.026 eff= 99.974
+2036 Decoupled DiLoCo H=500 (1T) overhead= 0.377 eff= 99.625
+2036 Regional inference (local replica) overhead= 0.0 eff= 100.0
+2041 Data parallel (all-reduce) overhead= 66.662 eff= 60.002
+2041 Decoupled DiLoCo H=500 (70B) overhead= 0.027 eff= 99.973
+2041 Decoupled DiLoCo H=500 (1T) overhead= 0.377 eff= 99.625
+2041 Regional inference (local replica) overhead= 0.0 eff= 100.0
+50 kg screening: [87.22, 89.23]
+$ /opt/pyvenv/bin/python /mnt/data/CPP_Renewable_Shifting_2026_2041/software/renewable_dispatch.py
+Constrained local grid fixed 27.953 TWh coordinated 27.953 TWh saving 0.0 GWh peak saving 0.0 MW
+Hybrid expansion grid fixed 22.252 TWh coordinated 22.123 TWh saving 129.18 GWh peak saving 0.0 MW
+Wind-intensive sensitivity grid fixed 22.565 TWh coordinated 22.561 TWh saving 3.98 GWh peak saving 0.0 MW
+Large regional build grid fixed 19.199 TWh coordinated 19.029 TWh saving 169.74 GWh peak saving 0.0 MW
+PASS: 17-site hourly conservation, saturation, monotone import tests
+$ /opt/pyvenv/bin/python -m unittest discover -s tests -p test_*.py -v
+/mnt/data/CPP_Renewable_Shifting_2026_2041/software/renewable_dispatch.py:33: ResourceWarning: unclosed file <_io.TextIOWrapper name='/mnt/data/CPP_Renewable_Shifting_2026_2041/inputs/site_it_capacity_assumptions.csv' mode='r' encoding='utf-8'>
+  sites=list(csv.DictReader(NODES.open(encoding='utf-8',newline='')))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/CPP_Renewable_Shifting_2026_2041/software/renewable_dispatch.py:34: ResourceWarning: unclosed file <_io.TextIOWrapper name='/mnt/data/CPP_Renewable_Shifting_2026_2041/inputs/bc17_site_resource_proxies.csv' mode='r' encoding='utf-8'>
+  metadata={r['Community']:r for r in csv.DictReader(SITEINFO.open(encoding='utf-8',newline=''))}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/CPP_Renewable_Shifting_2026_2041/software/renewable_dispatch.py:36: ResourceWarning: unclosed file <_io.TextIOWrapper name='/mnt/data/CPP_Renewable_Shifting_2026_2041/inputs/bc17_monthly_pv_wind_proxy.csv' mode='r' encoding='utf-8'>
+  for r in csv.DictReader(SOURCE.open(encoding='utf-8',newline='')):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+test_exact_site_count (test_dispatch.TestRenewableDispatch.test_exact_site_count) ... ok
+test_monthly_energy_reconciliation (test_dispatch.TestRenewableDispatch.test_monthly_energy_reconciliation) ... ok
+test_no_peak_capacity_claim (test_dispatch.TestRenewableDispatch.test_no_peak_capacity_claim) ... ok
+test_scenario_totals (test_dispatch.TestRenewableDispatch.test_scenario_totals) ... ok
+test_shapes_not_exceed_capacity (test_dispatch.TestRenewableDispatch.test_shapes_not_exceed_capacity) ... ok
+test_transfer_energy_and_conservation (test_dispatch.TestRenewableDispatch.test_transfer_energy_and_conservation) ... ok
+test_two_site_transfers_40mw (test_dispatch.TestRenewableDispatch.test_two_site_transfers_40mw) ... ok
+test_zero_spare_capacity_gives_no_shifting (test_dispatch.TestRenewableDispatch.test_zero_spare_capacity_gives_no_shifting) ... ok
+test_2026_sync_dp (test_horizon.HorizonTests.test_2026_sync_dp) ... ok
+test_collective_payload (test_horizon.HorizonTests.test_collective_payload) ... ok
+test_local_inference (test_horizon.HorizonTests.test_local_inference) ... ok
+test_more_bandwidth (test_horizon.HorizonTests.test_more_bandwidth) ... ok
+test_no_faster_light (test_horizon.HorizonTests.test_no_faster_light) ... ok
+test_physics (test_horizon.HorizonTests.test_physics) ... ok
+test_route_longer_than_light_floor (test_horizon.HorizonTests.test_route_longer_than_light_floor) ... ok
+test_10GB_slowdown (test_models.TestScreeningAlgebra.test_10GB_slowdown) ... ok
+test_17_nodes (test_models.TestScreeningAlgebra.test_17_nodes) ... ok
+test_bandwidth_reduces_slowdown (test_models.TestScreeningAlgebra.test_bandwidth_reduces_slowdown) ... ok
+test_capacity (test_models.TestScreeningAlgebra.test_capacity) ... ok
+test_energy (test_models.TestScreeningAlgebra.test_energy) ... ok
+test_heat (test_models.TestScreeningAlgebra.test_heat) ... ok
+test_peak (test_models.TestScreeningAlgebra.test_peak) ... ok
+test_slowdown_grows_with_payload (test_models.TestScreeningAlgebra.test_slowdown_grows_with_payload) ... ok
+test_usable_heat_monotonic (test_models.TestScreeningAlgebra.test_usable_heat_monotonic) ... ok
+test_zero_payload (test_models.TestScreeningAlgebra.test_zero_payload) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 1.882s
+
+OK
+Horizon training strategies: 13 records: 117
+2026 Data parallel (all-reduce) overhead= 52.745 eff= 65.469
+2026 Decoupled DiLoCo H=500 (70B) overhead= 0.021 eff= 99.979
+2026 Decoupled DiLoCo H=500 (1T) overhead= 0.301 eff= 99.7
+2026 Regional inference (local replica) overhead= 0.0 eff= 100.0
+2036 Data parallel (all-reduce) overhead= 66.077 eff= 60.213
+2036 Decoupled DiLoCo H=500 (70B) overhead= 0.026 eff= 99.974
+2036 Decoupled DiLoCo H=500 (1T) overhead= 0.377 eff= 99.625
+2036 Regional inference (local replica) overhead= 0.0 eff= 100.0
+2041 Data parallel (all-reduce) overhead= 66.662 eff= 60.002
+2041 Decoupled DiLoCo H=500 (70B) overhead= 0.027 eff= 99.973
+2041 Decoupled DiLoCo H=500 (1T) overhead= 0.377 eff= 99.625
+2041 Regional inference (local replica) overhead= 0.0 eff= 100.0
+50 kg screening: [87.22, 89.23]
+Reproduced scenario rows:
+local_only_independent_jobs 0.000%
+nearby_partitioned_1GB 0.042%
+nearby_partitioned_10GB 0.402%
+nearby_partitioned_100GB 4.002%
+nearby_partitioned_1TB 40.002%
+nearby_no_overlap_10GB 2.010%
+regional_10GB_100Gbps 1.601%
+regional_10GB_800Gbps 0.201%
+regional_10GB_1600Gbps 0.101%
+nearby_10GB_high_overlap 0.101%
+$ /opt/pyvenv/bin/python /mnt/data/CPP_Renewable_Shifting_2026_2041/software/generate_figures.py
+Generated three figures in figures/
+Rendered 5 PNG/TIFF scenario figures (unmeasured).
+$ /opt/pyvenv/bin/python /mnt/data/CPP_Renewable_Shifting_2026_2041/software/generate_dispatch_figures.py
+Generated Figure 6 and Figure 7. Active hours= 1286
+PASS: expected CSVs, 25 automated tests and five figures regenerated.
+INTERPRETATION: conditional scenarios using synthetic dispatch resource profiles, NOT measured wind, weather, grid or frontier-training performance.

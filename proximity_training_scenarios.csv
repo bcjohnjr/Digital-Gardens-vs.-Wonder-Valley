@@ -1,0 +1,11 @@
+scenario,payload_GB,link_Gbps,usable_bandwidth_fraction,rtt_ms,exposed_fraction,local_step_s,wan_transfer_s,exposed_comm_s,distributed_step_s,slowdown_pct
+local_only_independent_jobs,0.0,400,0.5,2.0,1.0,20.0,0.0,0.0,20.0,0.0
+nearby_partitioned_1GB,1.0,400,0.5,2.0,0.2,20.0,0.042,0.0084,20.0084,0.042
+nearby_partitioned_10GB,10.0,400,0.5,2.0,0.2,20.0,0.402,0.0804,20.0804,0.402
+nearby_partitioned_100GB,100.0,400,0.5,2.0,0.2,20.0,4.002,0.8004,20.8004,4.002
+nearby_partitioned_1TB,1000.0,400,0.5,2.0,0.2,20.0,40.002,8.0004,28.0004,40.002
+nearby_no_overlap_10GB,10.0,400,0.5,2.0,1.0,20.0,0.402,0.402,20.402,2.01
+regional_10GB_100Gbps,10.0,100,0.5,1.0,0.2,20.0,1.601,0.3202,20.3202,1.601
+regional_10GB_800Gbps,10.0,800,0.5,1.0,0.2,20.0,0.201,0.0402,20.0402,0.201
+regional_10GB_1600Gbps,10.0,1600,0.5,1.0,0.2,20.0,0.101,0.0202,20.0202,0.101
+nearby_10GB_high_overlap,10.0,400,0.5,2.0,0.05,20.0,0.402,0.0201,20.0201,0.1005

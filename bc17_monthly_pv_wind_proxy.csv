@@ -1,0 +1,205 @@
+Community,month_number,pv_kwh_per_kwp,wind_assumed_cf,source_class
+Lillooet,1,46.5464589,0.0992745,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Lillooet,2,64.5950897,0.096892,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Lillooet,3,105.4420208,0.08895,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Lillooet,4,112.0915014,0.0778311,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Lillooet,5,117.7911237,0.069095,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Lillooet,6,115.8912181,0.0635357,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Lillooet,7,126.3404155,0.0619473,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Lillooet,8,124.4406043,0.06433,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Lillooet,9,113.0414542,0.0714777,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Lillooet,10,88.3433428,0.0818023,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Lillooet,11,49.3962229,0.0889497,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Lillooet,12,37.9971671,0.0968918,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Cache Creek,1,47.5022422,0.0992243,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Cache Creek,2,65.9215247,0.096843,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Cache Creek,3,107.6071749,0.0889046,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Cache Creek,4,114.3932735,0.0777913,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Cache Creek,5,120.2098655,0.0690597,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Cache Creek,6,118.2710762,0.0635038,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Cache Creek,7,128.9347534,0.0619154,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Cache Creek,8,126.9959641,0.0642971,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Cache Creek,9,115.3627803,0.0714416,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Cache Creek,10,90.1573991,0.0817602,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Cache Creek,11,50.4105381,0.0889045,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Cache Creek,12,38.7773543,0.0968425,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kamloops,1,48.9999134,0.0992817,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kamloops,2,67.9998801,0.096899,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kamloops,3,110.9998024,0.0889564,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kamloops,4,117.9997913,0.0778369,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kamloops,5,123.9997802,0.0691001,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kamloops,6,121.9997824,0.0635403,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kamloops,7,132.9997646,0.0619518,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kamloops,8,130.9997668,0.0643346,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kamloops,9,118.9997891,0.0714828,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kamloops,10,92.9998357,0.0818081,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kamloops,11,51.9999067,0.0889564,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kamloops,12,39.9999289,0.096899,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chase,1,48.0,0.0992404,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chase,2,66.6122283,0.0968587,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chase,3,108.734692,0.0889195,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chase,4,115.5918478,0.0778046,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chase,5,121.4693841,0.0690715,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chase,6,119.5101449,0.063514,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chase,7,130.2856884,0.0619262,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chase,8,128.3265399,0.0643079,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chase,9,116.5713768,0.0714531,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chase,10,91.1019928,0.0817742,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chase,11,50.9387681,0.0889195,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chase,12,39.1836957,0.0968586,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Salmon Arm,1,47.0385278,0.0992788,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Salmon Arm,2,65.2779506,0.0968961,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Salmon Arm,3,106.5566618,0.0889538,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Salmon Arm,4,113.2764515,0.0778346,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Salmon Arm,5,119.036268,0.0690981,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Salmon Arm,6,117.1163329,0.0635384,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Salmon Arm,7,127.676004,0.06195,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Salmon Arm,8,125.7560577,0.0643326,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Salmon Arm,9,114.2364247,0.0714807,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Salmon Arm,10,89.277201,0.0818057,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Salmon Arm,11,49.9184361,0.0889538,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Salmon Arm,12,38.3987918,0.0968961,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Vernon,1,48.9993799,0.0992807,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Vernon,2,67.9991357,0.0968979,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Vernon,3,110.9985888,0.0889554,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Vernon,4,117.9985009,0.077836,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Vernon,5,123.9984277,0.0690993,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Vernon,6,121.9984521,0.0635396,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Vernon,7,132.9983105,0.0619511,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Vernon,8,130.9983349,0.0643339,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Vernon,9,118.9984911,0.0714821,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Vernon,10,92.9988183,0.0818072,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Vernon,11,51.9993408,0.0889555,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Vernon,12,39.9994922,0.0968979,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kelowna,1,51.0697963,0.0992818,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kelowna,2,70.8723705,0.0968991,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kelowna,3,115.6887242,0.0889565,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kelowna,4,122.9844087,0.077837,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kelowna,5,129.2378528,0.0691002,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kelowna,6,127.1533719,0.0635404,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kelowna,7,138.6180197,0.0619519,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kelowna,8,136.5335388,0.0643346,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kelowna,9,124.0266491,0.0714829,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kelowna,10,96.9283903,0.0818082,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kelowna,11,54.1965191,0.0889565,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Kelowna,12,41.6896294,0.0968991,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+West Kelowna,1,51.0694565,0.0992812,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+West Kelowna,2,70.8719029,0.0968984,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+West Kelowna,3,115.6879549,0.0889559,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+West Kelowna,4,122.9835924,0.0778364,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+West Kelowna,5,129.2369969,0.0690997,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+West Kelowna,6,127.1525307,0.06354,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+West Kelowna,7,138.6171005,0.0619515,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+West Kelowna,8,136.5326344,0.0643342,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+West Kelowna,9,124.0258255,0.0714824,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+West Kelowna,10,96.9277477,0.0818077,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+West Kelowna,11,54.1961617,0.088956,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+West Kelowna,12,41.6893529,0.0968984,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Penticton,1,50.4702953,0.0992825,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Penticton,2,70.0404137,0.0968997,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Penticton,3,114.3306713,0.0889571,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Penticton,4,121.5407143,0.0778375,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Penticton,5,127.720752,0.0691006,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Penticton,6,125.6607414,0.0635408,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Penticton,7,136.9908057,0.0619523,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Penticton,8,134.9307951,0.0643351,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Penticton,9,122.5707196,0.0714834,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Penticton,10,95.790564,0.0818088,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Penticton,11,53.5603171,0.0889571,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Penticton,12,41.2002416,0.0968997,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Oliver,1,51.9453265,0.099292,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Oliver,2,72.0873666,0.0969091,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Oliver,3,117.6720444,0.0889657,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Oliver,4,125.0928297,0.077845,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Oliver,5,131.4534784,0.0691073,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Oliver,6,129.333248,0.0635469,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Oliver,7,140.9944516,0.0619582,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Oliver,8,138.8742211,0.0643414,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Oliver,9,126.1529236,0.0714903,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Oliver,10,98.5900982,0.0818166,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Oliver,11,55.1256509,0.0889658,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Oliver,12,42.4043534,0.096909,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Osoyoos,1,51.935133,0.0992725,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Osoyoos,2,72.0732394,0.09689,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Osoyoos,3,117.6489437,0.0889482,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Osoyoos,4,125.0682707,0.0778298,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Osoyoos,5,131.4276604,0.0690937,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Osoyoos,6,129.3078638,0.0635344,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Osoyoos,7,140.9667449,0.0619461,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Osoyoos,8,138.8469484,0.0643286,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Osoyoos,9,126.128169,0.0714763,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Osoyoos,10,98.5707355,0.0818006,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Osoyoos,11,55.1148279,0.0889483,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Osoyoos,12,42.3960094,0.0968901,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Hope,1,39.3543563,0.1489015,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Hope,2,50.8727243,0.1453279,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Hope,3,82.5481795,0.1334158,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Hope,4,95.0263979,0.1167388,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Hope,5,103.6651821,0.1036355,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Hope,6,105.584883,0.0952969,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Hope,7,118.0631014,0.0929145,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Hope,8,116.143368,0.0964883,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Hope,9,107.5046164,0.1072092,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Hope,10,71.9896944,0.1226949,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Hope,11,41.2740897,0.1334158,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Hope,12,35.514922,0.1453279,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Agassiz / Kent,1,40.1799862,0.1489228,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Agassiz / Kent,2,51.9399931,0.1453488,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Agassiz / Kent,3,84.2799862,0.1334349,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Agassiz / Kent,4,97.0200138,0.1167555,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Agassiz / Kent,5,105.8399931,0.1036503,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Agassiz / Kent,6,107.8,0.0953106,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Agassiz / Kent,7,120.5399931,0.0929279,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Agassiz / Kent,8,118.5799862,0.0965019,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Agassiz / Kent,9,109.7600069,0.1072245,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Agassiz / Kent,10,73.5,0.1227124,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Agassiz / Kent,11,42.1399931,0.1334349,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Agassiz / Kent,12,36.2600069,0.1453487,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chilliwack,1,40.5903599,0.1489242,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chilliwack,2,52.4704639,0.14535,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chilliwack,3,85.1407553,0.1334361,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chilliwack,4,98.0108693,0.1167566,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chilliwack,5,106.9209479,0.1036512,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chilliwack,6,108.9009656,0.0953115,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chilliwack,7,121.7710797,0.0929287,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chilliwack,8,119.791062,0.0965029,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chilliwack,9,110.8809834,0.1072254,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chilliwack,10,74.2506589,0.1227135,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chilliwack,11,42.5703776,0.1334361,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Chilliwack,12,36.6303244,0.14535,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Abbotsford,1,40.3085541,0.1489229,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Abbotsford,2,52.1061809,0.1453488,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Abbotsford,3,84.549651,0.133435,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Abbotsford,4,97.3304116,0.1167556,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Abbotsford,5,106.178631,0.1036504,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Abbotsford,6,108.1449031,0.0953107,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Abbotsford,7,120.9256638,0.0929279,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Abbotsford,8,118.9593931,0.0965021,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Abbotsford,9,110.1111737,0.1072245,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Abbotsford,10,73.7351609,0.1227125,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Abbotsford,11,42.2748262,0.133435,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Abbotsford,12,36.3760128,0.1453488,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Mission,1,40.9994398,0.1489208,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Mission,2,52.9992774,0.1453467,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Mission,3,85.9988272,0.1334331,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Mission,4,98.9986544,0.1167539,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Mission,5,107.9985287,0.1036489,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Mission,6,109.9985025,0.0953093,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Mission,7,122.9983245,0.0929266,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Mission,8,120.9983507,0.0965007,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Mission,9,111.9984764,0.107223,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Mission,10,74.998979,0.1227108,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Mission,11,42.9994136,0.1334331,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Mission,12,36.9994974,0.1453467,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Maple Ridge,1,41.0003918,0.1489243,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Maple Ridge,2,53.0005065,0.1453501,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Maple Ridge,3,86.0008219,0.1334362,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Maple Ridge,4,99.0009461,0.1167566,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Maple Ridge,5,108.0010321,0.1036513,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Maple Ridge,6,110.0010512,0.0953115,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Maple Ridge,7,123.0011755,0.0929287,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Maple Ridge,8,121.0011564,0.0965029,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Maple Ridge,9,112.0010704,0.1072255,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Maple Ridge,10,75.0007168,0.1227136,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Maple Ridge,11,43.0004109,0.1334362,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF
+Maple Ridge,12,37.0003536,0.1453501,BC Hydro 2015 proxy for PV; unverified assumed seasonal wind CF

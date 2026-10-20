@@ -1,0 +1,118 @@
+year,hardware_scenario,method,exchange_type,representative_site_distance_km,illustrative_step_s,site_count,wan_link_rated_gbps,delivered_fraction,payload_GB_per_exchange,serial_rtt_dependencies,local_steps_per_exchange,exposed_fraction,physical_rtt_lower_bound_ms,routed_RTT_assumption_ms,wire_serialization_s_per_exchange,communication_overhead_pct_per_local_step,network_only_efficiency_pct,same_workload_compute_speedup_assumption
+2026,2026 hardware reference,Data parallel (all-reduce),global each step,50,20.0,17,400,0.5,263.52941,2,1,1.0,0.5,1.1,10.54118,52.717,65.481,1.0
+2026,2026 hardware reference,Data parallel (all-reduce),global each step,250,20.0,17,400,0.5,263.52941,2,1,1.0,2.5,3.9,10.54118,52.745,65.469,1.0
+2026,2026 hardware reference,Data parallel (all-reduce),global each step,800,20.0,17,400,0.5,263.52941,2,1,1.0,8.0,11.6,10.54118,52.822,65.436,1.0
+2026,2026 hardware reference,Tensor parallel (WAN-sharded),each transformer layer,50,20.0,17,400,0.5,50,96,1,1.0,0.5,1.1,2.0,10.528,90.475,1.0
+2026,2026 hardware reference,Tensor parallel (WAN-sharded),each transformer layer,250,20.0,17,400,0.5,50,96,1,1.0,2.5,3.9,2.0,11.872,89.388,1.0
+2026,2026 hardware reference,Tensor parallel (WAN-sharded),each transformer layer,800,20.0,17,400,0.5,50,96,1,1.0,8.0,11.6,2.0,15.568,86.529,1.0
+2026,2026 hardware reference,Pipeline parallel (WAN stage),microbatch boundaries,50,20.0,17,400,0.5,10,32,1,1.0,0.5,1.1,0.4,2.176,97.87,1.0
+2026,2026 hardware reference,Pipeline parallel (WAN stage),microbatch boundaries,250,20.0,17,400,0.5,10,32,1,1.0,2.5,3.9,0.4,2.624,97.443,1.0
+2026,2026 hardware reference,Pipeline parallel (WAN stage),microbatch boundaries,800,20.0,17,400,0.5,10,32,1,1.0,8.0,11.6,0.4,3.856,96.287,1.0
+2026,2026 hardware reference,Context parallel (WAN),attention exchanges,50,20.0,17,400,0.5,50,32,1,1.0,0.5,1.1,2.0,10.176,90.764,1.0
+2026,2026 hardware reference,Context parallel (WAN),attention exchanges,250,20.0,17,400,0.5,50,32,1,1.0,2.5,3.9,2.0,10.624,90.396,1.0
+2026,2026 hardware reference,Context parallel (WAN),attention exchanges,800,20.0,17,400,0.5,50,32,1,1.0,8.0,11.6,2.0,11.856,89.401,1.0
+2026,2026 hardware reference,Expert parallel (WAN all-to-all),MoE dispatch and return,50,20.0,17,400,0.5,100,64,1,1.0,0.5,1.1,4.0,20.352,83.09,1.0
+2026,2026 hardware reference,Expert parallel (WAN all-to-all),MoE dispatch and return,250,20.0,17,400,0.5,100,64,1,1.0,2.5,3.9,4.0,21.248,82.476,1.0
+2026,2026 hardware reference,Expert parallel (WAN all-to-all),MoE dispatch and return,800,20.0,17,400,0.5,100,64,1,1.0,8.0,11.6,4.0,23.712,80.833,1.0
+2026,2026 hardware reference,FSDP/ZeRO-3 over WAN,parameter gather and reduce,50,20.0,17,400,0.5,500,80,1,1.0,0.5,1.1,20.0,100.44,49.89,1.0
+2026,2026 hardware reference,FSDP/ZeRO-3 over WAN,parameter gather and reduce,250,20.0,17,400,0.5,500,80,1,1.0,2.5,3.9,20.0,101.56,49.613,1.0
+2026,2026 hardware reference,FSDP/ZeRO-3 over WAN,parameter gather and reduce,800,20.0,17,400,0.5,500,80,1,1.0,8.0,11.6,20.0,104.64,48.866,1.0
+2026,2026 hardware reference,Sequence parallel (WAN),activation shards,50,20.0,17,400,0.5,20,80,1,1.0,0.5,1.1,0.8,4.44,95.749,1.0
+2026,2026 hardware reference,Sequence parallel (WAN),activation shards,250,20.0,17,400,0.5,20,80,1,1.0,2.5,3.9,0.8,5.56,94.733,1.0
+2026,2026 hardware reference,Sequence parallel (WAN),activation shards,800,20.0,17,400,0.5,20,80,1,1.0,8.0,11.6,0.8,8.64,92.047,1.0
+2026,2026 hardware reference,Local DP+TP+PP+CP+EP (independent jobs),site-local collectives,50,20.0,17,400,0.5,0,0,1,1.0,0.5,1.1,0.0,0.0,100.0,1.0
+2026,2026 hardware reference,Local DP+TP+PP+CP+EP (independent jobs),site-local collectives,250,20.0,17,400,0.5,0,0,1,1.0,2.5,3.9,0.0,0.0,100.0,1.0
+2026,2026 hardware reference,Local DP+TP+PP+CP+EP (independent jobs),site-local collectives,800,20.0,17,400,0.5,0,0,1,1.0,8.0,11.6,0.0,0.0,100.0,1.0
+2026,2026 hardware reference,Regional inference (local replica),site-local inference,50,20.0,17,400,0.5,0,0,1,1.0,0.5,1.1,0.0,0.0,100.0,1.0
+2026,2026 hardware reference,Regional inference (local replica),site-local inference,250,20.0,17,400,0.5,0,0,1,1.0,2.5,3.9,0.0,0.0,100.0,1.0
+2026,2026 hardware reference,Regional inference (local replica),site-local inference,800,20.0,17,400,0.5,0,0,1,1.0,8.0,11.6,0.0,0.0,100.0,1.0
+2026,2026 hardware reference,Local-SGD / DiLoCo H=100 (70B),intermittent weight sync,50,20.0,17,400,0.5,263.52941,2,100,1.0,0.5,1.1,10.54118,0.527,99.476,1.0
+2026,2026 hardware reference,Local-SGD / DiLoCo H=100 (70B),intermittent weight sync,250,20.0,17,400,0.5,263.52941,2,100,1.0,2.5,3.9,10.54118,0.527,99.475,1.0
+2026,2026 hardware reference,Local-SGD / DiLoCo H=100 (70B),intermittent weight sync,800,20.0,17,400,0.5,263.52941,2,100,1.0,8.0,11.6,10.54118,0.528,99.475,1.0
+2026,2026 hardware reference,Local-SGD / DiLoCo H=500 (70B),intermittent weight sync,50,20.0,17,400,0.5,263.52941,2,500,1.0,0.5,1.1,10.54118,0.105,99.895,1.0
+2026,2026 hardware reference,Local-SGD / DiLoCo H=500 (70B),intermittent weight sync,250,20.0,17,400,0.5,263.52941,2,500,1.0,2.5,3.9,10.54118,0.105,99.895,1.0
+2026,2026 hardware reference,Local-SGD / DiLoCo H=500 (70B),intermittent weight sync,800,20.0,17,400,0.5,263.52941,2,500,1.0,8.0,11.6,10.54118,0.106,99.894,1.0
+2026,2026 hardware reference,Decoupled DiLoCo H=500 (70B),asynchronous weight sync,50,20.0,17,400,0.5,263.52941,2,500,0.2,0.5,1.1,10.54118,0.021,99.979,1.0
+2026,2026 hardware reference,Decoupled DiLoCo H=500 (70B),asynchronous weight sync,250,20.0,17,400,0.5,263.52941,2,500,0.2,2.5,3.9,10.54118,0.021,99.979,1.0
+2026,2026 hardware reference,Decoupled DiLoCo H=500 (70B),asynchronous weight sync,800,20.0,17,400,0.5,263.52941,2,500,0.2,8.0,11.6,10.54118,0.021,99.979,1.0
+2026,2026 hardware reference,Decoupled DiLoCo H=500 (1T),asynchronous weight sync,50,20.0,17,400,0.5,3764.70588,2,500,0.2,0.5,1.1,150.58824,0.301,99.7,1.0
+2026,2026 hardware reference,Decoupled DiLoCo H=500 (1T),asynchronous weight sync,250,20.0,17,400,0.5,3764.70588,2,500,0.2,2.5,3.9,150.58824,0.301,99.7,1.0
+2026,2026 hardware reference,Decoupled DiLoCo H=500 (1T),asynchronous weight sync,800,20.0,17,400,0.5,3764.70588,2,500,0.2,8.0,11.6,150.58824,0.301,99.7,1.0
+2036,2036 illustrative upgrade,Data parallel (all-reduce),global each step,50,4.0,17,1600,0.5,263.52941,2,1,1.0,0.5,1.1,2.63529,65.937,60.264,5.0
+2036,2036 illustrative upgrade,Data parallel (all-reduce),global each step,250,4.0,17,1600,0.5,263.52941,2,1,1.0,2.5,3.9,2.63529,66.077,60.213,5.0
+2036,2036 illustrative upgrade,Data parallel (all-reduce),global each step,800,4.0,17,1600,0.5,263.52941,2,1,1.0,8.0,11.6,2.63529,66.462,60.074,5.0
+2036,2036 illustrative upgrade,Tensor parallel (WAN-sharded),each transformer layer,50,4.0,17,1600,0.5,50,96,1,1.0,0.5,1.1,0.5,15.14,86.851,5.0
+2036,2036 illustrative upgrade,Tensor parallel (WAN-sharded),each transformer layer,250,4.0,17,1600,0.5,50,96,1,1.0,2.5,3.9,0.5,21.86,82.061,5.0
+2036,2036 illustrative upgrade,Tensor parallel (WAN-sharded),each transformer layer,800,4.0,17,1600,0.5,50,96,1,1.0,8.0,11.6,0.5,40.34,71.256,5.0
+2036,2036 illustrative upgrade,Pipeline parallel (WAN stage),microbatch boundaries,50,4.0,17,1600,0.5,10,32,1,1.0,0.5,1.1,0.1,3.38,96.731,5.0
+2036,2036 illustrative upgrade,Pipeline parallel (WAN stage),microbatch boundaries,250,4.0,17,1600,0.5,10,32,1,1.0,2.5,3.9,0.1,5.62,94.679,5.0
+2036,2036 illustrative upgrade,Pipeline parallel (WAN stage),microbatch boundaries,800,4.0,17,1600,0.5,10,32,1,1.0,8.0,11.6,0.1,11.78,89.461,5.0
+2036,2036 illustrative upgrade,Context parallel (WAN),attention exchanges,50,4.0,17,1600,0.5,50,32,1,1.0,0.5,1.1,0.5,13.38,88.199,5.0
+2036,2036 illustrative upgrade,Context parallel (WAN),attention exchanges,250,4.0,17,1600,0.5,50,32,1,1.0,2.5,3.9,0.5,15.62,86.49,5.0
+2036,2036 illustrative upgrade,Context parallel (WAN),attention exchanges,800,4.0,17,1600,0.5,50,32,1,1.0,8.0,11.6,0.5,21.78,82.115,5.0
+2036,2036 illustrative upgrade,Expert parallel (WAN all-to-all),MoE dispatch and return,50,4.0,17,1600,0.5,100,64,1,1.0,0.5,1.1,1.0,26.76,78.889,5.0
+2036,2036 illustrative upgrade,Expert parallel (WAN all-to-all),MoE dispatch and return,250,4.0,17,1600,0.5,100,64,1,1.0,2.5,3.9,1.0,31.24,76.196,5.0
+2036,2036 illustrative upgrade,Expert parallel (WAN all-to-all),MoE dispatch and return,800,4.0,17,1600,0.5,100,64,1,1.0,8.0,11.6,1.0,43.56,69.657,5.0
+2036,2036 illustrative upgrade,FSDP/ZeRO-3 over WAN,parameter gather and reduce,50,4.0,17,1600,0.5,500,80,1,1.0,0.5,1.1,5.0,127.2,44.014,5.0
+2036,2036 illustrative upgrade,FSDP/ZeRO-3 over WAN,parameter gather and reduce,250,4.0,17,1600,0.5,500,80,1,1.0,2.5,3.9,5.0,132.8,42.955,5.0
+2036,2036 illustrative upgrade,FSDP/ZeRO-3 over WAN,parameter gather and reduce,800,4.0,17,1600,0.5,500,80,1,1.0,8.0,11.6,5.0,148.2,40.29,5.0
+2036,2036 illustrative upgrade,Sequence parallel (WAN),activation shards,50,4.0,17,1600,0.5,20,80,1,1.0,0.5,1.1,0.2,7.2,93.284,5.0
+2036,2036 illustrative upgrade,Sequence parallel (WAN),activation shards,250,4.0,17,1600,0.5,20,80,1,1.0,2.5,3.9,0.2,12.8,88.652,5.0
+2036,2036 illustrative upgrade,Sequence parallel (WAN),activation shards,800,4.0,17,1600,0.5,20,80,1,1.0,8.0,11.6,0.2,28.2,78.003,5.0
+2036,2036 illustrative upgrade,Local DP+TP+PP+CP+EP (independent jobs),site-local collectives,50,4.0,17,1600,0.5,0,0,1,1.0,0.5,1.1,0.0,0.0,100.0,5.0
+2036,2036 illustrative upgrade,Local DP+TP+PP+CP+EP (independent jobs),site-local collectives,250,4.0,17,1600,0.5,0,0,1,1.0,2.5,3.9,0.0,0.0,100.0,5.0
+2036,2036 illustrative upgrade,Local DP+TP+PP+CP+EP (independent jobs),site-local collectives,800,4.0,17,1600,0.5,0,0,1,1.0,8.0,11.6,0.0,0.0,100.0,5.0
+2036,2036 illustrative upgrade,Regional inference (local replica),site-local inference,50,4.0,17,1600,0.5,0,0,1,1.0,0.5,1.1,0.0,0.0,100.0,5.0
+2036,2036 illustrative upgrade,Regional inference (local replica),site-local inference,250,4.0,17,1600,0.5,0,0,1,1.0,2.5,3.9,0.0,0.0,100.0,5.0
+2036,2036 illustrative upgrade,Regional inference (local replica),site-local inference,800,4.0,17,1600,0.5,0,0,1,1.0,8.0,11.6,0.0,0.0,100.0,5.0
+2036,2036 illustrative upgrade,Local-SGD / DiLoCo H=100 (70B),intermittent weight sync,50,4.0,17,1600,0.5,263.52941,2,100,1.0,0.5,1.1,2.63529,0.659,99.345,5.0
+2036,2036 illustrative upgrade,Local-SGD / DiLoCo H=100 (70B),intermittent weight sync,250,4.0,17,1600,0.5,263.52941,2,100,1.0,2.5,3.9,2.63529,0.661,99.344,5.0
+2036,2036 illustrative upgrade,Local-SGD / DiLoCo H=100 (70B),intermittent weight sync,800,4.0,17,1600,0.5,263.52941,2,100,1.0,8.0,11.6,2.63529,0.665,99.34,5.0
+2036,2036 illustrative upgrade,Local-SGD / DiLoCo H=500 (70B),intermittent weight sync,50,4.0,17,1600,0.5,263.52941,2,500,1.0,0.5,1.1,2.63529,0.132,99.868,5.0
+2036,2036 illustrative upgrade,Local-SGD / DiLoCo H=500 (70B),intermittent weight sync,250,4.0,17,1600,0.5,263.52941,2,500,1.0,2.5,3.9,2.63529,0.132,99.868,5.0
+2036,2036 illustrative upgrade,Local-SGD / DiLoCo H=500 (70B),intermittent weight sync,800,4.0,17,1600,0.5,263.52941,2,500,1.0,8.0,11.6,2.63529,0.133,99.867,5.0
+2036,2036 illustrative upgrade,Decoupled DiLoCo H=500 (70B),asynchronous weight sync,50,4.0,17,1600,0.5,263.52941,2,500,0.2,0.5,1.1,2.63529,0.026,99.974,5.0
+2036,2036 illustrative upgrade,Decoupled DiLoCo H=500 (70B),asynchronous weight sync,250,4.0,17,1600,0.5,263.52941,2,500,0.2,2.5,3.9,2.63529,0.026,99.974,5.0
+2036,2036 illustrative upgrade,Decoupled DiLoCo H=500 (70B),asynchronous weight sync,800,4.0,17,1600,0.5,263.52941,2,500,0.2,8.0,11.6,2.63529,0.027,99.973,5.0
+2036,2036 illustrative upgrade,Decoupled DiLoCo H=500 (1T),asynchronous weight sync,50,4.0,17,1600,0.5,3764.70588,2,500,0.2,0.5,1.1,37.64706,0.376,99.625,5.0
+2036,2036 illustrative upgrade,Decoupled DiLoCo H=500 (1T),asynchronous weight sync,250,4.0,17,1600,0.5,3764.70588,2,500,0.2,2.5,3.9,37.64706,0.377,99.625,5.0
+2036,2036 illustrative upgrade,Decoupled DiLoCo H=500 (1T),asynchronous weight sync,800,4.0,17,1600,0.5,3764.70588,2,500,0.2,8.0,11.6,37.64706,0.377,99.625,5.0
+2041,2041 illustrative upgrade,Data parallel (all-reduce),global each step,50,1.0,17,6400,0.5,263.52941,2,1,1.0,0.5,1.1,0.65882,66.102,60.204,20.0
+2041,2041 illustrative upgrade,Data parallel (all-reduce),global each step,250,1.0,17,6400,0.5,263.52941,2,1,1.0,2.5,3.9,0.65882,66.662,60.002,20.0
+2041,2041 illustrative upgrade,Data parallel (all-reduce),global each step,800,1.0,17,6400,0.5,263.52941,2,1,1.0,8.0,11.6,0.65882,68.202,59.452,20.0
+2041,2041 illustrative upgrade,Tensor parallel (WAN-sharded),each transformer layer,50,1.0,17,6400,0.5,50,96,1,1.0,0.5,1.1,0.125,23.06,81.261,20.0
+2041,2041 illustrative upgrade,Tensor parallel (WAN-sharded),each transformer layer,250,1.0,17,6400,0.5,50,96,1,1.0,2.5,3.9,0.125,49.94,66.693,20.0
+2041,2041 illustrative upgrade,Tensor parallel (WAN-sharded),each transformer layer,800,1.0,17,6400,0.5,50,96,1,1.0,8.0,11.6,0.125,123.86,44.671,20.0
+2041,2041 illustrative upgrade,Pipeline parallel (WAN stage),microbatch boundaries,50,1.0,17,6400,0.5,10,32,1,1.0,0.5,1.1,0.025,6.02,94.322,20.0
+2041,2041 illustrative upgrade,Pipeline parallel (WAN stage),microbatch boundaries,250,1.0,17,6400,0.5,10,32,1,1.0,2.5,3.9,0.025,14.98,86.972,20.0
+2041,2041 illustrative upgrade,Pipeline parallel (WAN stage),microbatch boundaries,800,1.0,17,6400,0.5,10,32,1,1.0,8.0,11.6,0.025,39.62,71.623,20.0
+2041,2041 illustrative upgrade,Context parallel (WAN),attention exchanges,50,1.0,17,6400,0.5,50,32,1,1.0,0.5,1.1,0.125,16.02,86.192,20.0
+2041,2041 illustrative upgrade,Context parallel (WAN),attention exchanges,250,1.0,17,6400,0.5,50,32,1,1.0,2.5,3.9,0.125,24.98,80.013,20.0
+2041,2041 illustrative upgrade,Context parallel (WAN),attention exchanges,800,1.0,17,6400,0.5,50,32,1,1.0,8.0,11.6,0.125,49.62,66.836,20.0
+2041,2041 illustrative upgrade,Expert parallel (WAN all-to-all),MoE dispatch and return,50,1.0,17,6400,0.5,100,64,1,1.0,0.5,1.1,0.25,32.04,75.735,20.0
+2041,2041 illustrative upgrade,Expert parallel (WAN all-to-all),MoE dispatch and return,250,1.0,17,6400,0.5,100,64,1,1.0,2.5,3.9,0.25,49.96,66.684,20.0
+2041,2041 illustrative upgrade,Expert parallel (WAN all-to-all),MoE dispatch and return,800,1.0,17,6400,0.5,100,64,1,1.0,8.0,11.6,0.25,99.24,50.191,20.0
+2041,2041 illustrative upgrade,FSDP/ZeRO-3 over WAN,parameter gather and reduce,50,1.0,17,6400,0.5,500,80,1,1.0,0.5,1.1,1.25,133.8,42.772,20.0
+2041,2041 illustrative upgrade,FSDP/ZeRO-3 over WAN,parameter gather and reduce,250,1.0,17,6400,0.5,500,80,1,1.0,2.5,3.9,1.25,156.2,39.032,20.0
+2041,2041 illustrative upgrade,FSDP/ZeRO-3 over WAN,parameter gather and reduce,800,1.0,17,6400,0.5,500,80,1,1.0,8.0,11.6,1.25,217.8,31.466,20.0
+2041,2041 illustrative upgrade,Sequence parallel (WAN),activation shards,50,1.0,17,6400,0.5,20,80,1,1.0,0.5,1.1,0.05,13.8,87.873,20.0
+2041,2041 illustrative upgrade,Sequence parallel (WAN),activation shards,250,1.0,17,6400,0.5,20,80,1,1.0,2.5,3.9,0.05,36.2,73.421,20.0
+2041,2041 illustrative upgrade,Sequence parallel (WAN),activation shards,800,1.0,17,6400,0.5,20,80,1,1.0,8.0,11.6,0.05,97.8,50.556,20.0
+2041,2041 illustrative upgrade,Local DP+TP+PP+CP+EP (independent jobs),site-local collectives,50,1.0,17,6400,0.5,0,0,1,1.0,0.5,1.1,0.0,0.0,100.0,20.0
+2041,2041 illustrative upgrade,Local DP+TP+PP+CP+EP (independent jobs),site-local collectives,250,1.0,17,6400,0.5,0,0,1,1.0,2.5,3.9,0.0,0.0,100.0,20.0
+2041,2041 illustrative upgrade,Local DP+TP+PP+CP+EP (independent jobs),site-local collectives,800,1.0,17,6400,0.5,0,0,1,1.0,8.0,11.6,0.0,0.0,100.0,20.0
+2041,2041 illustrative upgrade,Regional inference (local replica),site-local inference,50,1.0,17,6400,0.5,0,0,1,1.0,0.5,1.1,0.0,0.0,100.0,20.0
+2041,2041 illustrative upgrade,Regional inference (local replica),site-local inference,250,1.0,17,6400,0.5,0,0,1,1.0,2.5,3.9,0.0,0.0,100.0,20.0
+2041,2041 illustrative upgrade,Regional inference (local replica),site-local inference,800,1.0,17,6400,0.5,0,0,1,1.0,8.0,11.6,0.0,0.0,100.0,20.0
+2041,2041 illustrative upgrade,Local-SGD / DiLoCo H=100 (70B),intermittent weight sync,50,1.0,17,6400,0.5,263.52941,2,100,1.0,0.5,1.1,0.65882,0.661,99.343,20.0
+2041,2041 illustrative upgrade,Local-SGD / DiLoCo H=100 (70B),intermittent weight sync,250,1.0,17,6400,0.5,263.52941,2,100,1.0,2.5,3.9,0.65882,0.667,99.338,20.0
+2041,2041 illustrative upgrade,Local-SGD / DiLoCo H=100 (70B),intermittent weight sync,800,1.0,17,6400,0.5,263.52941,2,100,1.0,8.0,11.6,0.65882,0.682,99.323,20.0
+2041,2041 illustrative upgrade,Local-SGD / DiLoCo H=500 (70B),intermittent weight sync,50,1.0,17,6400,0.5,263.52941,2,500,1.0,0.5,1.1,0.65882,0.132,99.868,20.0
+2041,2041 illustrative upgrade,Local-SGD / DiLoCo H=500 (70B),intermittent weight sync,250,1.0,17,6400,0.5,263.52941,2,500,1.0,2.5,3.9,0.65882,0.133,99.867,20.0
+2041,2041 illustrative upgrade,Local-SGD / DiLoCo H=500 (70B),intermittent weight sync,800,1.0,17,6400,0.5,263.52941,2,500,1.0,8.0,11.6,0.65882,0.136,99.864,20.0
+2041,2041 illustrative upgrade,Decoupled DiLoCo H=500 (70B),asynchronous weight sync,50,1.0,17,6400,0.5,263.52941,2,500,0.2,0.5,1.1,0.65882,0.026,99.974,20.0
+2041,2041 illustrative upgrade,Decoupled DiLoCo H=500 (70B),asynchronous weight sync,250,1.0,17,6400,0.5,263.52941,2,500,0.2,2.5,3.9,0.65882,0.027,99.973,20.0
+2041,2041 illustrative upgrade,Decoupled DiLoCo H=500 (70B),asynchronous weight sync,800,1.0,17,6400,0.5,263.52941,2,500,0.2,8.0,11.6,0.65882,0.027,99.973,20.0
+2041,2041 illustrative upgrade,Decoupled DiLoCo H=500 (1T),asynchronous weight sync,50,1.0,17,6400,0.5,3764.70588,2,500,0.2,0.5,1.1,9.41176,0.377,99.625,20.0
+2041,2041 illustrative upgrade,Decoupled DiLoCo H=500 (1T),asynchronous weight sync,250,1.0,17,6400,0.5,3764.70588,2,500,0.2,2.5,3.9,9.41176,0.377,99.625,20.0
+2041,2041 illustrative upgrade,Decoupled DiLoCo H=500 (1T),asynchronous weight sync,800,1.0,17,6400,0.5,3764.70588,2,500,0.2,8.0,11.6,9.41176,0.377,99.624,20.0
